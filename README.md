@@ -45,8 +45,6 @@ PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
 export PKG_CONFIG_PATH
 
 ======================================================
-
-
 #配置一下环境变量
 $ sudo vim /etc/bash.bashrc
 #文件的最后增加一下内容
@@ -62,4 +60,10 @@ $ source /etc/bash.bashrc
 opencv+codeblocks configration
 http://www.cnblogs.com/zjhnl/archive/2012/09/09/2677285.html
 ------------------------------------------------------------------------------------------
+==========================================================================================
+##SfM environment config 
+
+#Cloud Point Library (CPL)
+http://pointclouds.org/
+http://pointclouds.org/downloads/linux.html
 
