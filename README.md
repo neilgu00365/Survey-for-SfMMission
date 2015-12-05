@@ -39,6 +39,7 @@ export PKG_CONFIG_PATH
 sudo vim /etc/bash.bashrc
 文件的最后增加一下内容
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
+
 export PKG_CONFIG_PATH
 source /etc/bash.bashrc
 
