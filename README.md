@@ -51,6 +51,8 @@ source /etc/bash.bashrc
 ==========================================================================================
 #SfM environment config 
 [Cloud Point Library (CPL)](http://pointclouds.org/)(http://pointclouds.org/downloads/linux.html)
+[WIN7(32位)VS2010+openCV 2.4.10+PCL 1.6.0+CUDA 6.5.14+ CMake 3.2.1+ SSBA-3.0 配置 ](http://blog.csdn.net/u012989207/article/details/44955937)
+
 ==========================================================================================
 ******************************************************************************************
 
