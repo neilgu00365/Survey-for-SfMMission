@@ -70,6 +70,10 @@ source /etc/bash.bashrc
 [【点云可视化】如何实现点云的多窗口显示](http://www.pclcn.org/bbs/forum.php?mod=viewthread&tid=348) 
 
 
+#[PCL Config](http://pointclouds.org/documentation/tutorials/compiling_pcl_posix.php)
+
+
+
 ============================================================================================
 #SfM info#
 
