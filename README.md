@@ -80,11 +80,17 @@ source /etc/bash.bashrc
 [Mastering_OpenCV.pdf](http://image2measure.net/files/Mastering_OpenCV.pdf) 
 
 [Bundler: Structure from Motion (SfM) for Unordered Image Collections](http://www.cs.cornell.edu/~snavely/bundler/)
+
 [BigSFM: Reconstructing the World from Internet Photos](http://www.cs.cornell.edu/projects/bigsfm/)
+
 [OpenMVG](https://github.com/openMVG/openMVG/tree/master/src/openMVG_Samples)
+
 [www.theia-sfm.org](http://www.theia-sfm.org/api.html)
+
 [LSD-SLAM: Large-Scale Direct Monocular SLAM](https://vision.in.tum.de/research/vslam/lsdslam?redirect=1)
+
 [Dense Visual SLAM](https://vision.in.tum.de/data/software/dvo)
+
 []()
 
 ============================================================================================
