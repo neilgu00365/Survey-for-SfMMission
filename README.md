@@ -79,3 +79,5 @@ source /etc/bash.bashrc
 
 [Mastering_OpenCV.pdf](http://image2measure.net/files/Mastering_OpenCV.pdf) 
 
+============================================================================================
+[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
