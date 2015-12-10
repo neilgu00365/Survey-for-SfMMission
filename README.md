@@ -104,5 +104,14 @@ source /etc/bash.bashrc
 
 [Multicore Bundle Adjustment](http://grail.cs.washington.edu/projects/mcba/)
 
+[A Generic Sparse Bundle Adjustment C/C++ Package Based on the Levenberg-Marquardt Algorithm](http://users.ics.forth.gr/~lourakis/sba/)
+
+[Structure from motion](http://mi.eng.cam.ac.uk/~cipolla/publications/contributionToEditedBook/2008-SFM-chapters.pdf)
+
+[Multibody Structure-from-Motion in Practice](https://www1.ethz.ch/igp/photogrammetry/publications/pdf_folder/ozden10pami.pdf)
+
+[Generic and Real Time Structure from Motion using Local Bundle Adjustment](http://maxime.lhuillier.free.fr/pIvc09.pdf)
+
+[]()
 ============================================================================================
 ###[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
