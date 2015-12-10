@@ -39,6 +39,20 @@
 
 [Generic and Real Time Structure from Motion using Local Bundle Adjustment](http://maxime.lhuillier.free.fr/pIvc09.pdf)
 
+[Incremental Motion Estimation Through Local Bundle Adjustment](http://research.microsoft.com/pubs/69944/tr-2001-54.pdf)
+
+[Dynamic Weighting of Laser Tracker Measurements for Bundle Adjustment](http://www.leica-geosystems.fr/fr/bundle_sandwith.pdf)
+
+[Bundle Adjustment: Sparse Estimation in Multi-View Geometry](https://cseweb.ucsd.edu/classes/fa04/cse252c/manmohan1.pdf)
+
+[Incremental Light Bundle Adjustment](http://www.cc.gatech.edu/~dellaert/ftp/Indelman12bmvc.pdf)
+
+[3次元復元のためのバンドル調整の実装と評価](http://www.iim.cs.tut.ac.jp/~kanatani/papers/budjust.pdf)
+
+[Bundle Adjustment — A Modern Synthesis](https://lear.inrialpes.fr/pubs/2000/TMHF00/Triggs-va99.pdf)
+
+[Structure-and-Motion Pipeline on a Hierarchical Cluster Tree](http://www.3dflow.net/wp-content/uploads/2012/02/3dim09.pdf)
+
 []()
 ============================================================================================
 #PCL info#
