@@ -1,9 +1,6 @@
 
-******************************************************************************************
-
 ##Pages for SfM and PCL infos
-==========================================================================================
-
+******************************************************************************************
 #SfM info#
 
 [Mastering_OpenCV.pdf](http://image2measure.net/files/Mastering_OpenCV.pdf) 
@@ -46,23 +43,28 @@
 ============================================================================================
 #PCL info#
 
-[PCL点云可视化及滤波处理]（http://blog.csdn.net/kh1445291129/article/details/39940439）(http://cdn.verydemo.com/demo_c316_i102814.html)  
+[PCL点云可视化及滤波处理](http://blog.csdn.net/kh1445291129/article/details/39940439)
+(http://cdn.verydemo.com/demo_c316_i102814.html)  
+
 [点云库PCL学习教程.pdf](http://yun.baidu.com/share/link?uk=3037564920&shareid=63756728&third=0&adapt=pc&fr=ftw) 
+
 [【干货】国外程序员整理的 C++ 资源大全](http://www.csdn.net/article/2014-10-24/2822269-c) 
+
 [Building Point Cloud Library with Visual Studio 2012/2013/2015](http://unanancyowen.com/?p=712)  
+
 [PCL库初步使用（1）：小试牛刀](http://blog.csdn.net/vbskj/article/details/7819828)  
+
 [PCL学习笔记（1）：pcl1.6.0+vs2010环境配置以及第一个pcl程序](http://blog.csdn.net/chentravelling/article/details/43451589)  
+
 [PCL Visualization overview](http://pointclouds.org/documentation/overview/visualization.php) 
+
 [【点云可视化】如何实现点云的多窗口显示](http://www.pclcn.org/bbs/forum.php?mod=viewthread&tid=348) 
 
 
 #[PCL Config](http://pointclouds.org/documentation/tutorials/compiling_pcl_posix.php)
 
-
-
 ============================================================================================
 ###[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
-============================================================================================
 ============================================================================================
 # Config_file
 For installing sth on PC
