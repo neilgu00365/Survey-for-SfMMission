@@ -90,8 +90,19 @@ source /etc/bash.bashrc
 [LSD-SLAM: Large-Scale Direct Monocular SLAM](https://vision.in.tum.de/research/vslam/lsdslam?redirect=1)
 
 [Dense Visual SLAM](https://vision.in.tum.de/data/software/dvo)
+--------------------------------------
 
-[]()
+##Bundle Adjustment
+
+[Changchang Wu](http://ccwu.me/)
+
+[VisualSFM : A Visual Structure from Motion System](http://ccwu.me/vsfm/doc.html)
+
+[Towards Linear-time Incremental Structure from Motion](http://ccwu.me/vsfm/vsfm.pdf)
+
+[Structure from Motion Using Structure-less Resection](https://www.cs.unc.edu/~ezheng/resources/structure-less_sfm/67_final.pdf)
+
+[Multicore Bundle Adjustment](http://grail.cs.washington.edu/projects/mcba/)
 
 ============================================================================================
-[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
+###[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
