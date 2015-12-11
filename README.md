@@ -17,6 +17,8 @@
 
 [Dense Visual SLAM](https://vision.in.tum.de/data/software/dvo)
 
+[Robust Global Translations with 1DSfM //databese](http://www.cs.cornell.edu/projects/1dsfm/)
+
 --------------------------------------
 
 ##Bundle Adjustment
