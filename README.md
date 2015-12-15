@@ -3,7 +3,16 @@
 ******************************************************************************************
 #SfM info#
 
-[Mastering_OpenCV.pdf](http://image2measure.net/files/Mastering_OpenCV.pdf) 
+[Mastering_OpenCV/Book](http://image2measure.net/files/Mastering_OpenCV.pdf)   
+
+[Multiple View Geometry.ppt](http://users.cecs.anu.edu.au/~hartley/Papers/CVPR99-tutorial/tutorial.pdf)  
+
+[Multiple View Geometry/Book](ftp://vista.eng.tau.ac.il/dropbox/aviad/Hartley,%20Zisserman%20-%20Multiple%20View%20Geometry%20in%20Computer%20Vision.pdf)
+
+[Visual 3D Modeling from Images/Book](http://www.cs.unc.edu/~marc/tutorial.pdf)
+
+
+[Computer Vision : Algorithm and Application/Book](ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algorithms%20and%20Applications.pdf)
 
 [Bundler: Structure from Motion (SfM) for Unordered Image Collections](http://www.cs.cornell.edu/~snavely/bundler/)
 
