@@ -3,17 +3,17 @@
 ******************************************************************************************
 #SfM info#
 
-[Mastering_OpenCV/Book](http://image2measure.net/files/Mastering_OpenCV.pdf)   
+[Mastering_OpenCV/Book](http://image2measure.net/files/Mastering_OpenCV.pdf)***   
 
 [Multiple View Geometry.ppt](http://users.cecs.anu.edu.au/~hartley/Papers/CVPR99-tutorial/tutorial.pdf)  
 
-[Multiple View Geometry/Book]  
+[Multiple View Geometry/Book]***  
 ftp://vista.eng.tau.ac.il/dropbox/aviad/Hartley,%20Zisserman%20-%20Multiple%20View%20Geometry%20in%20Computer%20Vision.pdf
 
 [Visual 3D Modeling from Images/Book](http://www.cs.unc.edu/~marc/tutorial.pdf)
 
 
-[Computer Vision : Algorithm and Application/Book]  
+[Computer Vision : Algorithm and Application/Book]***  
 ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algorithms%20and%20Applications.pdf
 
 [Bundler: Structure from Motion (SfM) for Unordered Image Collections](http://www.cs.cornell.edu/~snavely/bundler/)
@@ -22,7 +22,7 @@ ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algor
 
 [OpenMVG](https://github.com/openMVG/openMVG/tree/master/src/openMVG_Samples)
 
-[www.theia-sfm.org](http://www.theia-sfm.org/api.html)
+[www.theia-sfm.org](http://www.theia-sfm.org/api.html)***  
 
 [LSD-SLAM: Large-Scale Direct Monocular SLAM](https://vision.in.tum.de/research/vslam/lsdslam?redirect=1)
 
@@ -71,7 +71,12 @@ ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algor
 [BundlerによるStructure from MotionでKAZE局所特徴量を使ってみた](http://daily.belltail.jp/?p=1387)
 
 ============================================================================================
-#PCL info#
+#SSBA-3.0
+
+[chzach/SSBA4.0](https://github.com/chzach/SSBA/tree/master/SSBA-4.0)***  
+
+============================================================================================
+#PCL info
 
 [PCL点云可视化及滤波处理](http://blog.csdn.net/kh1445291129/article/details/39940439)
 (http://cdn.verydemo.com/demo_c316_i102814.html)  
