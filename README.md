@@ -93,6 +93,23 @@ ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algor
 
 #[PCL Config](http://pointclouds.org/documentation/tutorials/compiling_pcl_posix.php)
 
+■Appendix4 - PCL (Point Cloud Library)のビルド
+$ sudo apt-get -y install libeigen3-dev
+$ sudo apt-get -y install libflann-dev
+$ sudo apt-get install libboost-all-dev
+$ sudo apt-get install libqt4-dev libvtk5-qt4-dev
+$ sudo apt-get install openni-dev
+$ sudo apt-get install libusb-1.0-0-dev
+$ mkdir pcl
+$ cd pcl
+$ tar zxvf pcl-pcl-1.7.2.tar.gz
+$ cd pcl-pcl-1.7.2
+$ mdkir build
+$ cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ make -j2
+$ sudo make install
+
 ============================================================================================
 ###[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
 
@@ -101,7 +118,57 @@ ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algor
 For installing sth on PC  
 
 ======================================================================
-依赖库安装  
+依赖库安装(OpenCV)
+
+■Appendix3 - opencvのビルド
+● 必要ソフトウェアのインストール
+> Build Tools
+$ sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm
+> GUI
+$ sudo apt-get -y install libqt4-dev libgtk2.0-dev
+> Media & Video
+$ sudo apt-get -y install libjpeg-dev libpng-dev libtiff5-dev libjasper-dev
+$ sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libxine-dev
+$ sudo apt-get -y install libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev
+$ sudo apt-get -y install x264 v4l-utils
+> Parallelism and linear algebra libraries
+$ sudo apt-get -y install libtbb-dev libeigen3-dev
+> Python
+$ sudo apt-get -y install python-dev python-numpy
+---------------------------------------------------------------------------------------
+● Opencv 2.4.11 のソースファイルの入手
+ http://opencv.org/downloads.html
+   VAERSION 2.4.11,  OpenCV for Linux/Mac を選択。
+   (opencv-2.4.11.zip)
+
+● Opencv のbuild
+* ~/opencv 以下に、opencvのソースを解凍したとします。
+* release版をビルドし、/usr/localにインストールする場合です。
+* 演算量算出のときは、ローカルなフォルダにインストールします。
+  その場合は、 -DCMAKE_INSTALL_PREFIXの設定値を変更します。
+
+$ cd ~/opencv2/opencv-2.4.11
+$ mkdir release
+$ cd release
+$ cmake \
+    -DCMAKE_BUILD_TYPE=RELEASE \
+    -DCMAKE_INSTALL_PREFIX=/usr/local \
+    -DBUILD_EXAMPLES=ON \
+    -DINSTALL_C_EXAMPLES=ON \
+    -DINSTALL_PYTHON_EXAMPLES=ON \
+    -DWITH_1394=OFF \
+    -DWITH_OPENGL=ON \
+    -DWITH_QT=ON \
+    -DWITH_TBB=ON \
+    -DWITH_V4L=ON \
+    -DWITH_XINE=ON \
+    ..
+$ make
+$ sudo make install
+$ sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'
+$ sudo ldconfig
+
+------------------------------------------------------------------------------------
 
 更新源  
 sudo apt-get update   
