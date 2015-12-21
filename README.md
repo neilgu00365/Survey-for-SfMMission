@@ -93,22 +93,22 @@ ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algor
 
 #[PCL Config](http://pointclouds.org/documentation/tutorials/compiling_pcl_posix.php)
 
-■Appendix4 - PCL (Point Cloud Library)のビルド
-$ sudo apt-get -y install libeigen3-dev
-$ sudo apt-get -y install libflann-dev
-$ sudo apt-get install libboost-all-dev
-$ sudo apt-get install libqt4-dev libvtk5-qt4-dev
-$ sudo apt-get install openni-dev
-$ sudo apt-get install libusb-1.0-0-dev
-$ mkdir pcl
-$ cd pcl
-$ tar zxvf pcl-pcl-1.7.2.tar.gz
-$ cd pcl-pcl-1.7.2
-$ mdkir build
-$ cd build
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-$ make -j2
-$ sudo make install
+###■Appendix4 - PCL (Point Cloud Library)のビルド  
+$ sudo apt-get -y install libeigen3-dev  
+$ sudo apt-get -y install libflann-dev  
+$ sudo apt-get install libboost-all-dev  
+$ sudo apt-get install libqt4-dev libvtk5-qt4-dev  
+$ sudo apt-get install openni-dev  
+$ sudo apt-get install libusb-1.0-0-dev  
+$ mkdir pcl  
+$ cd pcl  
+$ tar zxvf pcl-pcl-1.7.2.tar.gz  
+$ cd pcl-pcl-1.7.2  
+$ mdkir build  
+$ cd build  
+$ cmake -DCMAKE_BUILD_TYPE=Release ..  
+$ make -j2  
+$ sudo make install  
 
 ============================================================================================
 ###[Qt5 install](http://sysads.co.uk/2014/05/install-qt-5-3-ubuntu-14-04/)
@@ -118,66 +118,65 @@ $ sudo make install
 For installing sth on PC  
 
 ======================================================================
-依赖库安装(OpenCV)
+##依赖库安装(OpenCV)  
+###■Appendix3 - opencvのビルド  
+● 必要ソフトウェアのインストール  
+> Build Tools  
+$ sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm  
+> GUI  
+$ sudo apt-get -y install libqt4-dev libgtk2.0-dev  
+> Media & Video  
+$ sudo apt-get -y install libjpeg-dev libpng-dev libtiff5-dev libjasper-dev  
+$ sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libxine-dev  
+$ sudo apt-get -y install libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev  
+$ sudo apt-get -y install x264 v4l-utils  
+> Parallelism and linear algebra libraries  
+$ sudo apt-get -y install libtbb-dev libeigen3-dev  
+> Python  
+$ sudo apt-get -y install python-dev python-numpy  
 
-■Appendix3 - opencvのビルド
-● 必要ソフトウェアのインストール
-> Build Tools
-$ sudo apt-get -y install build-essential checkinstall cmake pkg-config yasm
-> GUI
-$ sudo apt-get -y install libqt4-dev libgtk2.0-dev
-> Media & Video
-$ sudo apt-get -y install libjpeg-dev libpng-dev libtiff5-dev libjasper-dev
-$ sudo apt-get -y install libavcodec-dev libavformat-dev libswscale-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev libxine-dev
-$ sudo apt-get -y install libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev
-$ sudo apt-get -y install x264 v4l-utils
-> Parallelism and linear algebra libraries
-$ sudo apt-get -y install libtbb-dev libeigen3-dev
-> Python
-$ sudo apt-get -y install python-dev python-numpy
 ---------------------------------------------------------------------------------------
-● Opencv 2.4.11 のソースファイルの入手
- http://opencv.org/downloads.html
-   VAERSION 2.4.11,  OpenCV for Linux/Mac を選択。
-   (opencv-2.4.11.zip)
+###● Opencv 2.4.11 のソースファイルの入手  
+http://opencv.org/downloads.html  
+ VAERSION 2.4.11,  OpenCV for Linux/Mac を選択。  
+ (opencv-2.4.11.zip)  
 
-● Opencv のbuild
-* ~/opencv 以下に、opencvのソースを解凍したとします。
-* release版をビルドし、/usr/localにインストールする場合です。
-* 演算量算出のときは、ローカルなフォルダにインストールします。
-  その場合は、 -DCMAKE_INSTALL_PREFIXの設定値を変更します。
+###● Opencv のbuild  
+* ~/opencv 以下に、opencvのソースを解凍したとします。  
+* release版をビルドし、/usr/localにインストールする場合です。  
+* 演算量算出のときは、ローカルなフォルダにインストールします。  
+ その場合は、 -DCMAKE_INSTALL_PREFIXの設定値を変更します。  
 
-$ cd ~/opencv2/opencv-2.4.11
-$ mkdir release
-$ cd release
-$ cmake \
-    -DCMAKE_BUILD_TYPE=RELEASE \
-    -DCMAKE_INSTALL_PREFIX=/usr/local \
-    -DBUILD_EXAMPLES=ON \
-    -DINSTALL_C_EXAMPLES=ON \
-    -DINSTALL_PYTHON_EXAMPLES=ON \
-    -DWITH_1394=OFF \
-    -DWITH_OPENGL=ON \
-    -DWITH_QT=ON \
-    -DWITH_TBB=ON \
-    -DWITH_V4L=ON \
-    -DWITH_XINE=ON \
-    ..
-$ make
-$ sudo make install
-$ sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'
-$ sudo ldconfig
+$ cd ~/opencv2/opencv-2.4.11  
+$ mkdir release  
+$ cd release  
+$ cmake \  
+    -DCMAKE_BUILD_TYPE=RELEASE \  
+    -DCMAKE_INSTALL_PREFIX=/usr/local \  
+    -DBUILD_EXAMPLES=ON \  
+    -DINSTALL_C_EXAMPLES=ON \  
+    -DINSTALL_PYTHON_EXAMPLES=ON \  
+    -DWITH_1394=OFF \  
+    -DWITH_OPENGL=ON \  
+    -DWITH_QT=ON \  
+    -DWITH_TBB=ON \  
+    -DWITH_V4L=ON \  
+    -DWITH_XINE=ON \  
+    ..  
+$ make  
+$ sudo make install  
+$ sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'  
+$ sudo ldconfig  
 
 ------------------------------------------------------------------------------------
-
-更新源  
+##更新源  
 sudo apt-get update   
 更新已安装的包  
 sudo apt-get upgrade   
 安装所需的依赖库  
 sudo apt-get install build-essential libgtk2.0-dev libjpeg-dev libtiff4-dev libjasper-dev libopenexr-dev cmake python-dev python-numpy python-tk libtbb-dev libeigen2-dev yasm libfaac-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev libqt4-dev libqt4-opengl-dev sphinx-common texlive-latex-extra libv4l-dev libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev  
 
-安装OpenCV  
+##安装OpenCV  
 OpenCV官网下载稳定的安装包，opencv-2.4.10.zip，我下载的版本。  
 首先需要提供gcc 4.4.x及以上到编译器支持，以及CMAKE编译工具。要确保自己的机器安装好。  
 解包  
@@ -202,9 +201,8 @@ sudo ldconfig
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig  
 export PKG_CONFIG_PATH    
 
-======================================================
 配置一下环境变量  
-sudo vim /etc/bash.bashrc  
+sudo gidet /etc/bash.bashrc  
 文件的最后增加一下内容  
 PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig  
 
@@ -214,7 +212,7 @@ source /etc/bash.bashrc
 菜单栏Settings->Complier, gcc编译器选项下找到Linker Settingtab页，添加库文件，将/usr/local/lib/ 下向这样的文件'libopncv_*.so'添加到此处。  
 切换到Search directories在该页下找到，Compilertab页，添加这个目录/usr/local/include/opencv2  
 
-[opencv+codeblocks configration](http://www.cnblogs.com/zjhnl/archive/2012/09/09/2677285.html)  
+[opencv+codeblocks configration](http://www.cnblogs.com/zjhnl/archive/2012/09/09/2677285.html)   
 
 ------------------------------------------------------------------------------------------
 ==========================================================================================
