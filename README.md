@@ -1,6 +1,15 @@
 
 ##Pages for SfM and PCL infos
 ******************************************************************************************
+#About Feature (ORB)  
+
+[ORB: an efficient alternative to SIFT or SURF.pdf](http://www.willowgarage.com/sites/default/files/orb_final.pdf)  
+
+[OpenCV的ORB特征提取算法](http://blog.csdn.net/augusdi/article/details/8865354)  
+
+[新版本2.4.2简介&FREAK和ORB特征描述子效果对比features2d](http://blog.csdn.net/yang_xian521/article/details/7732835)  
+
+-----------------------------------------------------
 #SfM info#
 
 [Mastering_OpenCV/Book](http://image2measure.net/files/Mastering_OpenCV.pdf)***   
@@ -10,8 +19,7 @@
 [Multiple View Geometry/Book]***  
 ftp://vista.eng.tau.ac.il/dropbox/aviad/Hartley,%20Zisserman%20-%20Multiple%20View%20Geometry%20in%20Computer%20Vision.pdf
 
-[Visual 3D Modeling from Images/Book](http://www.cs.unc.edu/~marc/tutorial.pdf)
-
+[Visual 3D Modeling from Images/Book](http://www.cs.unc.edu/~marc/tutorial.pdf)  
 
 [Computer Vision : Algorithm and Application/Book]***  
 ftp://vista.eng.tau.ac.il/dropbox/aviad/Szeliski%20-%20Computer%20Vision%20Algorithms%20and%20Applications.pdf
